@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explorars</title>
+<meta name="description" content="Ignite an ambition in your child">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script> 
+<script type="text/javascript" src="js/snapshot.js"></script> 
+
+
+<link rel="stylesheet" type="text/css"  href="css/half-slider.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" ng-app="app">
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand page-scroll" href="#page-top"><img src="img/header/01.png"></a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#contact" class="page-scroll">contact us</a></li>
+        <li><a href="#benefits" class="page-scroll">benefits</a></li>
+        <li><a href="#skill" class="page-scroll">skill acquired</a></li>
+        <li><a href="#itenary" class="page-scroll">quick itenary</a></li>
+        <li><a href="#video" class="page-scroll">video</a></li>
+        <li><a href="#speaker" class="page-scroll">speaker profiles</a></li>
+        <li><a href="#testimonials" class="page-scroll">testimonials</a></li>
+        <li><a href="#trust" class="page-scroll">trust</a></li>
+      </ul>
+    </div>
+    <div class="header-title">
+      <h2 class="title">ignite an ambition in your child</h2>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+</nav>
+
+
+
+ <!--   Image Background Carousel Header -->
+  <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+         </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/intro/01.JPG');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/intro/02.JPG');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/intro/03.JPG');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/intro/04.JPG');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 4</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/intro/05.JPG');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 5</h2>
+                </div>
+            </div>
+
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/intro/06.JPG');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 5</h2>
+                </div>
+            </div>
+
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/intro/07.JPG');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 5</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+</header>
+
+
+
+<!-- contact  Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="row">
+       <p>Call us at</p>
+       <h2><strong class="sky">Question?</strong> <strong class="blue1">+97145595734</strong></h2>
+    </div>
+    <div class="register-form">
+        <img src="img/intro/cap-orange.png"  style="position: absolute;top:-15px;left:-18px;" />
+        <form name="registerForm">
+
+            <!--  Register Form -->
+            <span>Register now for a detailed itenary or to get a call.<br/></span><br/>
+            <fieldset class="form-group">
+                <input type="text" class="form-control" name="name" placeholder="Name" />
+            </fieldset>
+            <fieldset class="form-group">
+                <input type="email" class="form-control" placeholder="Email" title="Email" />
+            </fieldset>
+            <fieldset class="form-group">
+                <input type="tel" class="form-control" name="phone" placeholder="Phone" />
+            </fieldset>
+            <fieldset class="form-group" style="text-align: center;">
+                <strong><input type="submit" class="btn btn-primary register-btn" value="Register" /></strong>
+            </fieldset>
+        </form> 
+    </div>
+    </div>
+  <div>
+</div>
+
+  
+  
+<!--benefits section -->
+<div id="benefits" class="benefits">
+   <div class="container1">
+     <div class="row1">
+	 
+      <div class="col-xs-12 col-md-6 pad-zero gain-list" >
+        <div>
+            <header>
+              <img src="img/thumbsup.png" id="circle" style="position: absolute;top:-45px;left:55px;">
+			  
+              <hr class="crossing-line">
+              <h2 class="text-white font40 text-right"><strong>What you gain ?</strong></h2>
+            </header>
+            
+            <ul class="text-white" style="list-style-image: url('img/bullet/orange.png');">
+              <li><b>An ignited ambition:</b> Visit the best companies and universities, find inspiration and make dreams a reality</li>
+              <li><b>Holistic development: </b>Lead, create, work together and communicate through discssion, physical challenge and negotiation</li>
+              <li><b>Hands-on experience: </b>Interact with the latest technology and problem-solve in challenges and workshops</li>
+            </ul>
+
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 pad-zero snapshot">
+        <div>
+          <canvas id="snapshotcanvas" width="600" height="420">
+			<img id="camera" src="img/snapshot/01.png">
+		  </canvas>
+        </div>
+      </div>
+    </div>
+   </div>
+</div>
+
+
+
+<!-- Skill Acquired -->
+<div id="skill" class="text-center">
+  <div class="overlay">
+    <div class="container">
+      <div class="col-md-10 heading">
+        <h1><strong>Learnings and skills acquired in the program</strong></h1>
+      </div>
+      <div id="row" class="skills">
+          <div class="col-md-1 skill"></div>
+          <div class="col-md-2 skill">
+            <figure class="figure">
+                <div class="skill-img"> 
+                  <img src="img/skill/01.png" alt="..." height= "60%" width="60%">
+                 </div> 
+               <div class="caption">
+                 <figcaption class="figure-caption text-blue">Activate Leadership</figcaption>
+               </div>
+            </figure>
+          </div>
+          <div class="col-md-2 skill">
+           <figure class="figure">
+            <div class="skill-img"> 
+              <img src="img/skill/02.png" alt="..." height= "60%" width="60%">
+             </div>
+             <div class="caption">
+              <figcaption class="figure-caption text-blue">STEM in Space Avialion Technology</figcaption>
+             </div>
+            </figure>
+          </div>
+          <div class="col-md-2 skill">
+            <figure class="figure">
+            <div class="skill-img"> 
+              <img src="img/skill/03.png" alt="..." height= "60%" width="60%">
+             </div>
+             <div class="caption">
+              <figcaption class="figure-caption text-blue">Collaboration</figcaption>
+            </div>
+            </figure>
+          </div>
+          <div class="col-md-2 skill">
+          <figure class="figure">
+            <div class="skill-img"> 
+              <img src="img/skill/04.png" alt="..." height= "60%" width="60%">
+             </div>
+            <div class="caption">
+              <figcaption class="figure-caption text-blue">Risk Taking Ability</figcaption>
+            </div>
+          </figure>
+         </div>
+          <div class="col-md-2 skill">
+         <figure class="figure">
+            <div class="skill-img"> 
+              <img src="img/skill/05.png" alt="..." height= "60%" width="60%">
+             </div>
+            <div class="caption">
+                <figcaption class="figure-caption text-blue">Analytical Skills</figcaption>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+
+
+
+
+
+
+<!-- quick itenary -->
+<div id="itenary" class="text-left">
+  <div class="overlay">
+    <div class="container">
+      <div id="row" ng-controller="AppController as dayCtrl" ng-init="tab=2">
+          <div class="col-md-7">
+                <h2><strong class="sky font40">Quick itenary</strong></h2>
+                <div >
+                    <section class="day" class="text-right" >
+                        <h1><strong>July</strong></h1>
+                        <h3><strong><a ng-class="{ active: tab===0 }" ng-click="tab = 0">01</a></strong></h3>
+                        <h3><strong><a ng-class="{ active: tab===1 }" ng-click="tab = 1">02</a></strong></h3>
+                        <h3><strong><a ng-class="{ active: tab===2 }" ng-click="tab = 2">03</a></strong></h3>
+                        <h3><strong><a ng-class="{ active: tab===3 }" ng-click="tab = 3 ">04</a></strong></h3>
+                        <h3><strong><a ng-class="{ active: tab===4 }" ng-click="tab = 4">05</a></strong></h3>
+                        <h3><strong><a ng-class="{ active: tab===5 }" ng-click="tab = 5">06</a></strong></h3>
+                        <h3><strong><a ng-class="{ active: tab===6 }" ng-click="tab = 6">07</a></strong></h3>
+                        <h3><strong><a ng-class="{ active: tab===7 }" ng-click="tab = 7">08</a></strong></h3>
+                        <h3><strong><a ng-class="{ active: tab===8 }" ng-click="tab = 8">09</a></strong></h3>
+                        
+                    </section>
+                  
+                    <section class="day_detail">
+                        <h3 class="text-royalblue"><strong>{{dayCtrl.days[tab].name}}</strong></h3>
+                        <h4 class="text-skyblue"><strong>{{dayCtrl.days[tab].title}}</strong></h4>
+                        <ul ng-repeat="d in dayCtrl.days[tab].details" style="list-style-image: url('img/bullet.png');">
+                            <li>{{d}}</li>
+                        </ul>
+                    </section>
+                </div>
+          </div>
+
+          <div class="col-md-5 slider" id="scroll-style" style="max-height: 450px;overflow-y: scroll;overflow-x: none; ">
+
+            <div ng-repeat="image in dayCtrl.days[tab].images">
+               <div class="slide">
+                   <figure class="figure">
+                    <div class="skill-img"> 
+                      <img src="{{image.src}}" alt="..." width="400px;">
+                     </div>
+                    <div class="caption">
+                      <figcaption class="figure-caption text-royalblue font13">{{image.caption}}</figcaption>
+                    </div>
+                  </figure>   
+                  
+               </div>
+          </div>
+             
+        </div>
+
+       
+
+
+          </div>
+      </div>
+    </div>
+  </div>   
+</div>
+
+
+<!-- map -->
+<div id="map">
+	<center><img src="img/map/01.png" usemap="#roadmap"></center>
+	<map name="roadmap">
+		<area shape="circle" coords="300,200,5" title="first">
+		<area shape="circle" coords="700,300,10" title="second">
+		<area shape="rect" coords="100,100,450,450" title="third">
+	</map>
+</div>
+
+
+<!-- different section -->
+<div id="different" class="different">
+	<div class="container">
+		<div class="text-center">
+			<h2 class="text-skyblue"><strong>What makes us different?</strong></h2>
+		</div>
+		<div class="col-xs-12 col-md-6 rightborder">
+			<div class="box">
+				<div>
+					<p class="text-royalblue">The <b>'Explorars'</b> program design is differentiated by the <b>Unique Learning Potential (ULeap) Framework</b> where students get <b>360 degrees</b> experiential learning through the following elements:</p>
+				</div>
+				<div>
+					<div class="col-xs-12 col-md-3">
+						<figure class="figure">
+							<div class="differnt-img"> 
+								<center><img src="img/different/01.png" alt="..."></center>
+							</div> 
+							<div class="caption">
+								<figcaption class="figure-caption text-skyblue text-center">Direct Curriculum Connect</figcaption>
+							</div>
+						</figure>
+					</div>
+					<div class="col-xs-12 col-md-3">
+						<figure class="figure">
+							<div class="differnt-img"> 
+								<center><img src="img/different/02.png" alt="..." ></center>
+							</div> 
+							<div class="caption">
+								<figcaption class="figure-caption text-skyblue text-center">Life skills learning</figcaption>
+							</div>
+						</figure>
+					</div>
+					<div class="col-xs-12 col-md-3">
+						<figure class="figure">
+							<div class="differnt-img"> 
+								<center><img src="img/different/03.png" alt="..." ></center>
+							</div> 
+							<div class="caption">
+								<figcaption class="figure-caption text-skyblue text-center"><b>S</b>ocial & <b>EN</b>vironmental <b>SE</b>nsitivity: <b>SENSE</b></figcaption>
+							</div>
+						</figure>
+					</div>
+					<div class="col-xs-12 col-md-3">
+						<figure class="figure">
+							<div class="differnt-img"> 
+								<center><img src="img/different/04.png" alt="..." ></center>
+							</div> 
+							<div class="caption">
+								<figcaption class="figure-caption text-skyblue text-center">Fun!</figcaption>
+							</div>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-6">
+			<div class="box">
+				<div>
+					<p class="text-royalblue">The Daily <b>ULeap</b> Framework is delivered by trained Program Director(s) accompanying the group:</p>
+				</div>
+				<div>
+					<hr class="crossing-line">
+					<div class="col-xs-12 col-md-3 bluebox">
+						<p  class="text-white"><strong>ULeap activities during the day</strong></p>
+					</div>
+					<div class="col-xs-12 col-md-3 bluebox">
+						<p class="text-white"><strong >Starts with ULeap thought of the day</strong></p>
+					</div>
+					<div class="col-xs-12 col-md-3 bluebox">
+						<p  class="text-white"><strong>Day ends with ULeap reflection time</strong></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- facilities Section -->
+<div id="facilities">
+  <div class="container facilities">
+    <div class="row">
+      <div class="col-xs-12 col-md-3 text-center">
+        <h2 class="text-white" style="padding: 50px 0;"><strong>We take care of everything</strong></h2>
+      </div>
+      <div class="col-xs-12 col-md-9">
+        <div class="row">
+          <div class="col-xs-12 col-md-2">
+            <figure class="figure">
+              <div class="facilities-img"> 
+                <img src="img/facilities/01.png" alt="..." width="80px" height="80px">
+              </div> 
+              <div class="caption">
+                <figcaption class="figure-caption text-white">Flights</figcaption>
+              </div>
+            </figure>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <figure class="figure">
+              <div class="facilities-img"> 
+                <img src="img/facilities/02.png" alt="...">
+              </div> 
+              <div class="caption">
+                <figcaption class="figure-caption text-white">Visa</figcaption>
+              </div>
+            </figure>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <figure class="figure">
+              <div class="facilities-img"> 
+                <img src="img/facilities/03.png" alt="...">
+              </div> 
+              <div class="caption">
+                <figcaption class="figure-caption text-white">Accommodation</figcaption>
+              </div>
+            </figure>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <figure class="figure">
+              <div class="facilities-img"> 
+                <img src="img/facilities/04.png" alt="...">
+              </div> 
+              <div class="caption">
+                <figcaption class="figure-caption text-white">Entrance Tickets</figcaption>
+              </div>
+            </figure>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <figure class="figure">
+              <div class="facilities-img"> 
+                <img src="img/facilities/05.png" alt="...">
+              </div> 
+              <div class="caption">
+                <figcaption class="figure-caption text-white">Experts & Guides</figcaption>
+              </div>
+            </figure>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <figure class="figure">
+              <div class="facilities-img"> 
+                <img src="img/facilities/06.png" alt="...">
+              </div> 
+              <div class="caption">
+                <figcaption class="figure-caption text-white">Meals</figcaption>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-2">
+            <figure class="figure">
+              <div class="facilities-img"> 
+                <img src="img/facilities/07.png" alt="...">
+              </div> 
+              <div class="caption">
+                <figcaption class="figure-caption text-white">Program Director</figcaption>
+              </div>
+            </figure>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <figure class="figure">
+              <div class="facilities-img"> 
+                <img src="img/facilities/08.png" alt="...">
+              </div> 
+              <div class="caption">
+                <figcaption class="figure-caption text-white">Ground Transportion</figcaption>
+              </div>
+            </figure>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <figure class="figure">
+              <div class="facilities-img"> 
+                <img src="img/facilities/09.png" alt="...">
+              </div> 
+              <div class="caption">
+                <figcaption class="figure-caption text-white">Workshops</figcaption>
+              </div>
+            </figure>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <figure class="figure">
+              <div class="facilities-img"> 
+                <img src="img/facilities/10.png" alt="...">
+              </div> 
+              <div class="caption">
+                <figcaption class="figure-caption text-white">Insurance Covers</figcaption>
+              </div>
+            </figure>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <figure class="figure">
+              <div class="facilities-img"> 
+                <img src="img/facilities/11.png" alt="...">
+              </div> 
+              <div class="caption">
+                <figcaption class="figure-caption text-white">Adventure Activities</figcaption>
+              </div>
+            </figure>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <figure class="figure">
+              <div class="facilities-img"> 
+                <img src="img/facilities/12.png" alt="...">
+              </div> 
+              <div class="caption">
+                <figcaption class="figure-caption text-white">Travel Kit</figcaption>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="see_yourself">
+    <div class="container">
+      <div class="row">
+         <div class="col-sm-12 col-md-5 col-lg-5 text-right">
+            <h2><strong class="sky text-skyblue">See for yourself</strong> </h2>
+         </div>
+         <div class="col-sm-12 col-md-7 col-lg-7 text-left">
+            <span style="color:#2B328C;"><strong>Hear straight from the kids:</strong></span><br/>
+            <span class="text-blue">*Content of the video may differ from the actual program</span>
+         </div>
+      </div>
+    </div>  
+</div>
+
+
+<!-- Video Section -->
+<!--  <div id="video">
+  <div class="container1">
+    <div class="row">
+        <video  id="backgroundvid" width="100%"> 
+            <source src="video/video.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'>
+            <source src="video/video.webm" type='video/webm; codecs="vp8.0, vorbis"'> 
+            <source src="video/video.ogv" type='video/ogg; codecs="theora, vorbis"'> 
+            <p>Fallback content to cover incompatibility issues</p> 
+        </video>
+    </div>
+  </div>
+</div>  -->
+
+<!-- Speaker Section -->
+<div id="speaker">
+  <div class="container">
+   
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 col-lg-4 text-center section-title">
+          <h2><strong>Program Director</strong></h2>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <div class="portfolio-item">
+            <h3 class="text-white"><b>Pracheta Jaitely</b></h3> 
+            <div class="hover-bg bg1 border">
+              <a href="img/directors/01.jpg" title="Pracheta Jaitely" >
+                <div class="hover-text">
+                  <h4>Jagmohan Sharma is a science graduate and has always been keen to take up opportunities that allow him to add value to the lives of others – mostly old age homes and orphanages. Having accomplished several milestones in corporate and education travel for almost a decade, his love for social work continues to grow.
+
+Being a part of the founding team at Explorars has further enabled him to ignite and inspire young minds. As a Program Director at Explorars, he has found immense inspiration and satisfaction. It has provided opportunities for outdoor learning with students on programs that encapsulate life transforming objectives. Preparation, planning and experience has helped him make key decisions on the ground.
+
+
+Jagmohan’s spirit and work ethic has had led him to work with reputed institutions like Harvard Business School, Pathways Group of Schools, GD Goenka, Delhi Public School and Delhi Private School Dubai.</h4>
+                </div>
+                <img src="img/directors/01.jpg" class="img-responsive" alt="">
+              </a> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 ">
+          <div class="portfolio-item">
+            <h3 class="text-white"><b>Jagmohan Sharma</b></h3> 
+            <div class="hover-bg bg2 border"> 
+              <a href="img/directors/02.jpg" title="Jagmohan sharma" >
+                <div class="hover-text">
+                  <h4>Pracheta Jaitely is a Delhi based photographer who finished her Masters in photography design from the National Institute of Design, Ahmedabad. Born and brought up in Delhi, she did her schooling from Holy Child Auxilium and then decided to take up English Honours for her undergraduate study. After completing her graduation in literature from Delhi University, she worked with the World Bank for one year and hosted on-air shows at All India Radio before she finally joined NID. A die-hard adventure sports lover, she loves to travel and explore. 
+
+She takes pleasure in working in an analog medium. Her projects are mostly an amalgamation of literature and photography, through which she expresses herself and brings out her creative potential.</h4>
+                </div>
+                <img src="img/directors/02.jpg" class="img-responsive" alt=""> 
+              </a>   
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Testimonials Section -->
+<div id="testimonials" class="text-left">
+  <div class="overlay">
+    <div class="container">
+      <div class="section-title">
+        <h2 class="text-skyblue"><strong>Our customers love us!</strong></h2>
+      </div>
+      
+      <div class="row line">
+        <div class="testimonial">
+          <div class="testimonials-img col-xs-12 col-md-2">
+            <center><img src="img/team/01.jpg" alt="..." width="60%" height="50%" /></center>
+          </div>
+          <div class="caption col-xs-12 col-md-10">
+            <q class="text-blue">This outing was my best school trip till date! While my friends have contributed greatly to the nature of this excursion, credit must be given to the amazing program director and chaperones who were present with us throughout the trip. They did whatever it takes to make this trip memorable for us. I will cherish this trip throughout my life and wish such trips are conducted more often for students.</q>
+            <p class="text-skyblue"><cite>Ammar Naqshnbandi</cite></p>
+            <p class="text-skyblue"><cite>DPS Dubai</cite></p>
+        </div>
+        </div>
+    </div>
+    
+   
+
+    <div class="row line">
+      <div class="testimonial">
+        <div class="testimonials-img col-xs-12 col-md-2">
+          <center><img src="img/team/01.jpg" alt="..." height= "50%" width="60%"></center>
+        </div>
+        <div class="caption col-xs-12 col-md-10">
+              <q class="text-blue">This trip has helped me learn two very important things - time management and the importance of being independent. This trip was highly informative and guess, was much needed for us. The Program Director was fabulous and taught us several essential things which will be helpful for us in life. To be honest, I definitely can’t wait for my next trip with Explorars!</q>
+              <p class="text-skyblue"><cite>Simone Yogesh Mohiti</cite></p>
+              <p class="text-skyblue"><cite>DPS Dubai</cite></p>
+            </div>
+          </div>
+    </div>
+   
+    <div class="row line">
+      <div class="testimonial">
+        <div class="testimonials-img col-xs-12 col-md-2"><center><img src="img/team/01.jpg" alt="..." height= "50%" width="60%"></center></div>
+            <div class="caption col-xs-12 col-md-10">
+        <q class="text-blue">Explorars did a fabulous job organizing and putting together all aspects of the trip, this included the booking of tickets to arranging the hotel stay and planning every day of the trip. The students returned safe, happy and with wonderful memories of the trip.</q>
+              <p class="text-skyblue"><cite>Anushree Phadke</cite></p>
+        <p class="text-skyblue"><cite>Activity Coordinator at Dubai Gem Private School</cite></p>
+      </div>
+          </div>
+      </div>
+      
+
+      <div class="row line">
+        <div class="testimonial">
+          <div class="testimonials-img col-xs-12 col-md-2"><center><img src="img/team/01.jpg" alt="..." height= "50%" width="60%"></center></div>
+            <div class="caption col-xs-12 col-md-10">
+        <q class="text-blue">According to me, this trip was much beyond fantastic and was definitely the best experience that I have had till date. The best part about this program was the NASA Workshop which highly motivated me that helped me realize my passion in life.</q>
+              <p class="text-skyblue"><cite>Sidhant Sardana</cite></p>
+        <p class="text-skyblue"><cite>DPS Dubai</cite></p>
+      </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+
+<!-- Trust Section -->
+<div id="trust" class="text-left">
+  <div class="container">
+    <div class="row1">
+     <div class="section-title text-left">
+        <h2 class="text-white"><strong>Feel safe with us </strong><img src="img/trust/ring.png"  height= "5%" width="5%"></h2>
+      </div>
+      <div class="col-xs-12 col-md-8 ">
+        <ul style="list-style-image: url('img/bullet_white.png');">
+          <li><span class="text-blue">Inputs from expert educators, learning led by expert instructors who are authorities in the field of study</span></li>
+          <li><span class="text-blue">A detailed </span><b class="text-white">Risk Assessment</b><span class="text-blue"> is performed for every program before it is undertaken</span></li>
+          <li><span class="text-blue">200-point </span><b class="text-white">Safety Checklist</b><span class="text-blue"> basis guidelines from International student travel organisations</span></li>
+          <li><span class="text-blue">Members of WYSETC </span><b class="text-white">(World Youth Student & Educational Travel Confederation)</b><span class="text-blue">, Netherlands</span></li>
+          <li><span class="text-blue">Comprehensive <b class="text-white">travel insurance</b></li>
+          <li><span class="text-blue">Accompanying Program Directors trained in managing students and emergency first aid<span></li>
+          <li><b class="text-white">Clinic on call</b><span class="text-blue"> at every destination</span></li>
+          <li><span class="text-blue">We follow <b class="text-white">sustainability standards<b></li>
+          <li><span class="text-blue">Please refer to our website <a href="www.explorars.com" class="text-white">www.explorars.com</a> for more details</span></li>
+      </ul>
+    </div>
+    <div class="col-xs-12 col-md-3 trust-img-div">
+      <div><img src="img/trust/03.jpg" alt="..." height= "60%" width="80%" class="trust-img"></div>
+	  <div><img src="img/trust/02.jpg" alt="..." height= "60%" width="80%" class="trust-img"></div>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+
+
+<script type="text/javascript">
+  $('.bg1').hover(function(){
+    $('.bg2 .hover-text').css('opacity',1);
+  }, function(){
+     $('.bg2 .hover-text').css('opacity',0);
+  });
+
+
+  
+
+  $('.bg2').hover(function(){
+    $('.bg1 .hover-text').css('opacity',1);
+  }, function(){
+     $('.bg1 .hover-text').css('opacity',0);
+  });
+   
+</script>
+
+<!-- <script type="text/javascript" src="js/main.js"></script> -->
+</body>
+</html>
