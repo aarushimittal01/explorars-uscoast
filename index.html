@@ -50,23 +50,24 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand page-scroll" href="#page-top"><img src="img/header/01.png"></a> </div>
+      <a class="navbar-brand page-scroll pad-zero" href="#page-top"><img src="img/header/01.png" id="logo"></a>
+	</div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#contact" class="page-scroll">contact us</a></li>
-        <li><a href="#benefits" class="page-scroll">benefits</a></li>
-        <li><a href="#skill" class="page-scroll">skill acquired</a></li>
-        <li><a href="#itenary" class="page-scroll">quick itenary</a></li>
-        <li><a href="#video" class="page-scroll">video</a></li>
-        <li><a href="#speaker" class="page-scroll">speaker profiles</a></li>
-        <li><a href="#testimonials" class="page-scroll">testimonials</a></li>
-        <li><a href="#trust" class="page-scroll">trust</a></li>
+      <ul class="nav navbar-nav navbar-right separatingline">
+        <li class="text-blue"><a href="#contact" class="page-scroll">contact us</a></li>
+        <li><a href="#benefits" class="page-scroll text-blue">benefits</a></li>
+        <li><a href="#skill" class="page-scroll text-blue">skill acquired</a></li>
+        <li><a href="#itenary" class="page-scroll text-blue">quick itenary</a></li>
+        <li><a href="#video" class="page-scroll text-blue">video</a></li>
+        <li><a href="#speaker" class="page-scroll text-blue">speaker profiles</a></li>
+        <li><a href="#testimonials" class="page-scroll text-blue">testimonials</a></li>
+        <li><a href="#trust" class="page-scroll text-blue">trust</a></li>
       </ul>
     </div>
     <div class="header-title">
-      <h2 class="title">ignite an ambition in your child</h2>
+      <h1 class="title">ignite an ambition in your child</h1>
     </div>
     <!-- /.navbar-collapse --> 
   </div>
@@ -93,35 +94,35 @@
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('img/intro/01.JPG');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 1</h2>
+                    <b><h2 class="text-white">Caption 1</h2></b>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('img/intro/02.JPG');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 2</h2>
+                    <b><h2 class="text-white">Caption 2</h2></b>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('img/intro/03.JPG');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 3</h2>
+                    <b><h2 class="text-white">Caption 3</h2></b>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('img/intro/04.JPG');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 4</h2>
+                    <b><h2 class="text-white">Caption 4</h2></b>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('img/intro/05.JPG');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 5</h2>
+                    <b><h2 class="text-white">Caption 5</h2></b>
                 </div>
             </div>
 
@@ -159,7 +160,8 @@
   <div class="container">
     <div class="row">
        <p>Call us at</p>
-       <h2><strong class="sky">Question?</strong> <strong class="blue1">+97145595734</strong></h2>
+       <h2><strong class="sky">Question?</strong>
+	   <strong class="blue1 text-darkblue"><a href="tel:+97145595734" class="text-darkblue">+97145595734</a></strong></h2>
     </div>
     <div class="register-form">
         <img src="img/intro/cap-orange.png"  style="position: absolute;top:-15px;left:-18px;" />
@@ -188,15 +190,15 @@
   
   
 <!--benefits section -->
-<div id="benefits" class="benefits">
+<div id="benefits" class="benefits bg-blue">
    <div class="container1">
-     <div class="row1">
+     <div class="row1 bg-blue">
 	 
       <div class="col-xs-12 col-md-6 pad-zero gain-list" >
         <div>
             <header>
-              <img src="img/thumbsup.png" id="circle" style="position: absolute;top:-45px;left:55px;">
-			  
+			<img src="img/thumbsup.png" id="circle" style="position: absolute;top:-45px;left:55px;">
+				
               <hr class="crossing-line">
               <h2 class="text-white font40 text-right"><strong>What you gain ?</strong></h2>
             </header>
@@ -226,9 +228,11 @@
 <div id="skill" class="text-center">
   <div class="overlay">
     <div class="container">
-      <div class="col-md-10 heading">
-        <h1><strong>Learnings and skills acquired in the program</strong></h1>
+	<center>
+      <div class="heading text-center">
+        <center><strong>Learnings and skills acquired in the program</strong></center>
       </div>
+	  </center>
       <div id="row" class="skills">
           <div class="col-md-1 skill"></div>
           <div class="col-md-2 skill">
@@ -341,11 +345,7 @@
           </div>
              
         </div>
-
-       
-
-
-          </div>
+       </div>
       </div>
     </div>
   </div>   
@@ -354,12 +354,7 @@
 
 <!-- map -->
 <div id="map">
-	<center><img src="img/map/01.png" usemap="#roadmap"></center>
-	<map name="roadmap">
-		<area shape="circle" coords="300,200,5" title="first">
-		<area shape="circle" coords="700,300,10" title="second">
-		<area shape="rect" coords="100,100,450,450" title="third">
-	</map>
+	<center><img src="img/map/01.png" class="mapsize"></center>
 </div>
 
 
@@ -453,27 +448,27 @@
       <div class="col-xs-12 col-md-9">
         <div class="row">
           <div class="col-xs-12 col-md-2">
-            <figure class="figure">
+            <figure class="figure text-center">
               <div class="facilities-img"> 
                 <img src="img/facilities/01.png" alt="..." width="80px" height="80px">
               </div> 
               <div class="caption">
-                <figcaption class="figure-caption text-white">Flights</figcaption>
+                <figcaption class="figure-caption text-white text-center">Flights</figcaption>
               </div>
             </figure>
           </div>
           <div class="col-xs-12 col-md-2">
-            <figure class="figure">
+            <figure class="figure text-center">
               <div class="facilities-img"> 
                 <img src="img/facilities/02.png" alt="...">
               </div> 
               <div class="caption">
-                <figcaption class="figure-caption text-white">Visa</figcaption>
+                <figcaption class="figure-caption text-white text-center">Visa</figcaption>
               </div>
             </figure>
           </div>
           <div class="col-xs-12 col-md-2">
-            <figure class="figure">
+            <figure class="figure text-center">
               <div class="facilities-img"> 
                 <img src="img/facilities/03.png" alt="...">
               </div> 
@@ -483,9 +478,9 @@
             </figure>
           </div>
           <div class="col-xs-12 col-md-2">
-            <figure class="figure">
+            <figure class="figure text-center">
               <div class="facilities-img"> 
-                <img src="img/facilities/04.png" alt="...">
+				<img src="img/facilities/04.png" alt="...">
               </div> 
               <div class="caption">
                 <figcaption class="figure-caption text-white">Entrance Tickets</figcaption>
@@ -493,29 +488,29 @@
             </figure>
           </div>
           <div class="col-xs-12 col-md-2">
-            <figure class="figure">
+            <figure class="figure text-center">
               <div class="facilities-img"> 
-                <img src="img/facilities/05.png" alt="...">
+                <center><img src="img/facilities/05.png" alt="..."></center>
               </div> 
               <div class="caption">
-                <figcaption class="figure-caption text-white">Experts & Guides</figcaption>
+                <figcaption class="figure-caption text-white text-center">Experts & Guides</figcaption>
               </div>
             </figure>
           </div>
           <div class="col-xs-12 col-md-2">
-            <figure class="figure">
+            <figure class="figure text-center">
               <div class="facilities-img"> 
-                <img src="img/facilities/06.png" alt="...">
+                <center><img src="img/facilities/06.png" alt="..."></center>
               </div> 
               <div class="caption">
-                <figcaption class="figure-caption text-white">Meals</figcaption>
+                <figcaption class="figure-caption text-white text-center">Meals</figcaption>
               </div>
             </figure>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12 col-md-2">
-            <figure class="figure">
+            <figure class="figure text-center">
               <div class="facilities-img"> 
                 <img src="img/facilities/07.png" alt="...">
               </div> 
@@ -525,47 +520,47 @@
             </figure>
           </div>
           <div class="col-xs-12 col-md-2">
-            <figure class="figure">
+            <figure class="figure text-center">
               <div class="facilities-img"> 
                 <img src="img/facilities/08.png" alt="...">
               </div> 
               <div class="caption">
-                <figcaption class="figure-caption text-white">Ground Transportion</figcaption>
+                <figcaption class="figure-caption text-white text-center">Ground Transportion</figcaption>
               </div>
             </figure>
           </div>
           <div class="col-xs-12 col-md-2">
-            <figure class="figure">
+            <figure class="figure text-center">
               <div class="facilities-img"> 
                 <img src="img/facilities/09.png" alt="...">
               </div> 
               <div class="caption">
-                <figcaption class="figure-caption text-white">Workshops</figcaption>
+                <figcaption class="figure-caption text-white text-center">Workshops</figcaption>
               </div>
             </figure>
           </div>
           <div class="col-xs-12 col-md-2">
-            <figure class="figure">
+            <figure class="figure text-center">
               <div class="facilities-img"> 
                 <img src="img/facilities/10.png" alt="...">
               </div> 
               <div class="caption">
-                <figcaption class="figure-caption text-white">Insurance Covers</figcaption>
+                <figcaption class="figure-caption text-white text-center">Insurance Covers</figcaption>
               </div>
             </figure>
           </div>
           <div class="col-xs-12 col-md-2">
-            <figure class="figure">
+            <figure class="figure text-center">
               <div class="facilities-img"> 
                 <img src="img/facilities/11.png" alt="...">
               </div> 
               <div class="caption">
-                <figcaption class="figure-caption text-white">Adventure Activities</figcaption>
+                <figcaption class="figure-caption text-white text-center">Adventure Activities</figcaption>
               </div>
             </figure>
           </div>
           <div class="col-xs-12 col-md-2">
-            <figure class="figure">
+            <figure class="figure  text-center">
               <div class="facilities-img"> 
                 <img src="img/facilities/12.png" alt="...">
               </div> 
@@ -597,18 +592,22 @@
 
 
 <!-- Video Section -->
-<!--  <div id="video">
+<div id="video">
   <div class="container1">
     <div class="row">
-        <video  id="backgroundvid" width="100%"> 
+	<center>
+        <video id="backgroundvid" width="95%" autoplay controls> 
             <source src="video/video.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'>
             <source src="video/video.webm" type='video/webm; codecs="vp8.0, vorbis"'> 
             <source src="video/video.ogv" type='video/ogg; codecs="theora, vorbis"'> 
             <p>Fallback content to cover incompatibility issues</p> 
         </video>
+		</center>
     </div>
   </div>
-</div>  -->
+</div>
+
+
 
 <!-- Speaker Section -->
 <div id="speaker">
@@ -619,17 +618,14 @@
         <div class="col-sm-6 col-md-4 col-lg-4 text-center section-title">
           <h2><strong>Program Director</strong></h2>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4">
+        <div id="speaker1" class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
             <h3 class="text-white"><b>Pracheta Jaitely</b></h3> 
             <div class="hover-bg bg1 border">
               <a href="img/directors/01.jpg" title="Pracheta Jaitely" >
                 <div class="hover-text">
                   <h4>Jagmohan Sharma is a science graduate and has always been keen to take up opportunities that allow him to add value to the lives of others – mostly old age homes and orphanages. Having accomplished several milestones in corporate and education travel for almost a decade, his love for social work continues to grow.
-
 Being a part of the founding team at Explorars has further enabled him to ignite and inspire young minds. As a Program Director at Explorars, he has found immense inspiration and satisfaction. It has provided opportunities for outdoor learning with students on programs that encapsulate life transforming objectives. Preparation, planning and experience has helped him make key decisions on the ground.
-
-
 Jagmohan’s spirit and work ethic has had led him to work with reputed institutions like Harvard Business School, Pathways Group of Schools, GD Goenka, Delhi Public School and Delhi Private School Dubai.</h4>
                 </div>
                 <img src="img/directors/01.jpg" class="img-responsive" alt="">
@@ -637,14 +633,13 @@ Jagmohan’s spirit and work ethic has had led him to work with reputed institut
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 ">
+        <div id="speaker2" class="col-sm-6 col-md-4 col-lg-4 ">
           <div class="portfolio-item">
             <h3 class="text-white"><b>Jagmohan Sharma</b></h3> 
             <div class="hover-bg bg2 border"> 
               <a href="img/directors/02.jpg" title="Jagmohan sharma" >
                 <div class="hover-text">
                   <h4>Pracheta Jaitely is a Delhi based photographer who finished her Masters in photography design from the National Institute of Design, Ahmedabad. Born and brought up in Delhi, she did her schooling from Holy Child Auxilium and then decided to take up English Honours for her undergraduate study. After completing her graduation in literature from Delhi University, she worked with the World Bank for one year and hosted on-air shows at All India Radio before she finally joined NID. A die-hard adventure sports lover, she loves to travel and explore. 
-
 She takes pleasure in working in an analog medium. Her projects are mostly an amalgamation of literature and photography, through which she expresses herself and brings out her creative potential.</h4>
                 </div>
                 <img src="img/directors/02.jpg" class="img-responsive" alt=""> 
@@ -673,7 +668,7 @@ She takes pleasure in working in an analog medium. Her projects are mostly an am
       <div class="row line">
         <div class="testimonial">
           <div class="testimonials-img col-xs-12 col-md-2">
-            <center><img src="img/team/01.jpg" alt="..." width="60%" height="50%" /></center>
+            <center><img src="img/testimonials/01.jpg" alt="..." width="100%" /></center>
           </div>
           <div class="caption col-xs-12 col-md-10">
             <q class="text-blue">This outing was my best school trip till date! While my friends have contributed greatly to the nature of this excursion, credit must be given to the amazing program director and chaperones who were present with us throughout the trip. They did whatever it takes to make this trip memorable for us. I will cherish this trip throughout my life and wish such trips are conducted more often for students.</q>
@@ -688,7 +683,7 @@ She takes pleasure in working in an analog medium. Her projects are mostly an am
     <div class="row line">
       <div class="testimonial">
         <div class="testimonials-img col-xs-12 col-md-2">
-          <center><img src="img/team/01.jpg" alt="..." height= "50%" width="60%"></center>
+          <center><img src="img/testimonials/02.JPG" alt="..." width="100%"></center>
         </div>
         <div class="caption col-xs-12 col-md-10">
               <q class="text-blue">This trip has helped me learn two very important things - time management and the importance of being independent. This trip was highly informative and guess, was much needed for us. The Program Director was fabulous and taught us several essential things which will be helpful for us in life. To be honest, I definitely can’t wait for my next trip with Explorars!</q>
@@ -700,19 +695,22 @@ She takes pleasure in working in an analog medium. Her projects are mostly an am
    
     <div class="row line">
       <div class="testimonial">
-        <div class="testimonials-img col-xs-12 col-md-2"><center><img src="img/team/01.jpg" alt="..." height= "50%" width="60%"></center></div>
-            <div class="caption col-xs-12 col-md-10">
-        <q class="text-blue">Explorars did a fabulous job organizing and putting together all aspects of the trip, this included the booking of tickets to arranging the hotel stay and planning every day of the trip. The students returned safe, happy and with wonderful memories of the trip.</q>
-              <p class="text-skyblue"><cite>Anushree Phadke</cite></p>
-        <p class="text-skyblue"><cite>Activity Coordinator at Dubai Gem Private School</cite></p>
+        <div class="testimonials-img col-xs-12 col-md-2">
+			<center><img src="img/testimonials/03.jpg" alt="..." width="100%"></center>
+		</div>
+        <div class="caption col-xs-12 col-md-10">
+			<q class="text-blue">Explorars did a fabulous job organizing and putting together all aspects of the trip, this included the booking of tickets to arranging the hotel stay and planning every day of the trip. The students returned safe, happy and with wonderful memories of the trip.</q>
+            <p class="text-skyblue"><cite>Anushree Phadke</cite></p>
+			<p class="text-skyblue"><cite>Activity Coordinator at Dubai Gem Private School</cite></p>
+		</div>
       </div>
-          </div>
-      </div>
+    </div>
       
-
       <div class="row line">
         <div class="testimonial">
-          <div class="testimonials-img col-xs-12 col-md-2"><center><img src="img/team/01.jpg" alt="..." height= "50%" width="60%"></center></div>
+          <div class="testimonials-img col-xs-12 col-md-2">
+			<center><img src="img/testimonials/04.jpg" alt="..." width="100%" height="100%"></center>
+		  </div>
             <div class="caption col-xs-12 col-md-10">
         <q class="text-blue">According to me, this trip was much beyond fantastic and was definitely the best experience that I have had till date. The best part about this program was the NASA Workshop which highly motivated me that helped me realize my passion in life.</q>
               <p class="text-skyblue"><cite>Sidhant Sardana</cite></p>
@@ -735,20 +733,20 @@ She takes pleasure in working in an analog medium. Her projects are mostly an am
   <div class="container">
     <div class="row1">
      <div class="section-title text-left">
-        <h2 class="text-white"><strong>Feel safe with us </strong><img src="img/trust/ring.png"  height= "5%" width="5%"></h2>
-      </div>
+        <h2 class="text-white"><strong>Feel safe with us </strong><img src="img/trust/ring.png" height= "5%" width="5%"></h2>
+     </div>
       <div class="col-xs-12 col-md-8 ">
         <ul style="list-style-image: url('img/bullet_white.png');">
-          <li><span class="text-blue">Inputs from expert educators, learning led by expert instructors who are authorities in the field of study</span></li>
-          <li><span class="text-blue">A detailed </span><b class="text-white">Risk Assessment</b><span class="text-blue"> is performed for every program before it is undertaken</span></li>
-          <li><span class="text-blue">200-point </span><b class="text-white">Safety Checklist</b><span class="text-blue"> basis guidelines from International student travel organisations</span></li>
-          <li><span class="text-blue">Members of WYSETC </span><b class="text-white">(World Youth Student & Educational Travel Confederation)</b><span class="text-blue">, Netherlands</span></li>
-          <li><span class="text-blue">Comprehensive <b class="text-white">travel insurance</b></li>
-          <li><span class="text-blue">Accompanying Program Directors trained in managing students and emergency first aid<span></li>
-          <li><b class="text-white">Clinic on call</b><span class="text-blue"> at every destination</span></li>
-          <li><span class="text-blue">We follow <b class="text-white">sustainability standards<b></li>
-          <li><span class="text-blue">Please refer to our website <a href="www.explorars.com" class="text-white">www.explorars.com</a> for more details</span></li>
-      </ul>
+          <li><span class="text-darkblue">Inputs from expert educators, learning led by expert instructors who are authorities in the field of study</span></li>
+          <li><span class="text-darkblue">A detailed </span><b class="text-white">Risk Assessment</b><span class="text-darkblue"> is performed for every program before it is undertaken</span></li>
+          <li><span class="text-darkblue">200-point </span><b class="text-white">Safety Checklist</b><span class="text-darkblue"> basis guidelines from International student travel organisations</span></li>
+          <li><span class="text-darkblue">Members of WYSETC </span><b class="text-white">(World Youth Student & Educational Travel Confederation)</b><span class="text-darkblue">, Netherlands</span></li>
+          <li><span class="text-darkblue">Comprehensive <b class="text-white">travel insurance</b></li>
+          <li><span class="text-darkblue">Accompanying Program Directors trained in managing students and emergency first aid<span></li>
+          <li><b class="text-white">Clinic on call</b><span class="text-darkblue"> at every destination</span></li>
+          <li><span class="text-darkblue">We follow <b class="text-white">sustainability standards</b></li>
+          <li><span class="text-darkblue">Please refer to our website <a href="www.explorars.com" class="text-white">www.explorars.com</a> for more details</span></li>
+	  </ul>
     </div>
     <div class="col-xs-12 col-md-3 trust-img-div">
       <div><img src="img/trust/03.jpg" alt="..." height= "60%" width="80%" class="trust-img"></div>
@@ -766,9 +764,13 @@ She takes pleasure in working in an analog medium. Her projects are mostly an am
 
 <script type="text/javascript">
   $('.bg1').hover(function(){
-    $('.bg2 .hover-text').css('opacity',1);
+    $('.bg2 .hover-text').css({'opacity':1});
+	$('.bg2').removeClass('border'); 
+	$('#speaker2 h3').css('color', '#5FC0E5');
   }, function(){
-     $('.bg2 .hover-text').css('opacity',0);
+     $('.bg2 .hover-text').css({'opacity':0});
+	 $('.bg2').addClass('border');
+	 $('#speaker2 h3').css('color','white');
   });
 
 
@@ -776,8 +778,12 @@ She takes pleasure in working in an analog medium. Her projects are mostly an am
 
   $('.bg2').hover(function(){
     $('.bg1 .hover-text').css('opacity',1);
+	$('.bg1').removeClass('border');
+	$('#speaker1 h3').css('color','#5FC0E5');
   }, function(){
      $('.bg1 .hover-text').css('opacity',0);
+	 $('.bg1').addClass('border');
+	 $('#speaker1 h3').css('color','white');
   });
    
 </script>
